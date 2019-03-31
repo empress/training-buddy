@@ -42,6 +42,7 @@ module.exports = {
       packages: [
         'prember',
         'ember-cli-fastboot',
+        'ember-fetch'
       ]
     }
 
