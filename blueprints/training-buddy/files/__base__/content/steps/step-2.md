@@ -45,3 +45,5 @@ module.exports.autoroute = autorouteJson({
   delete: {},
 });
 ```
+
+**Note:** you  can't start or end a step with a code sample because of a bug with the rendering engine 😔 we are trying to fix it and hopefully it won't be like this forever
