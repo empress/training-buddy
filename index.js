@@ -59,7 +59,7 @@ module.exports = {
     let appPrefix = join(this.project.configPath(), '../..');
 
     const content = walkSync(join(appPrefix, 'content'), {
-      globs: ['*.md'],
+      globs: ['**/*.md'],
     });
 
     const staticUrls = ['/'];
